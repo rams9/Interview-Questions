@@ -21,3 +21,6 @@ var a = 0; b =23;
 if(a){alert(a);}
 if(b){alert(b);}
 it alert 23
+array sort program
+remove duplicates in array
+print string of words in reverse order example last word should come first like that 
