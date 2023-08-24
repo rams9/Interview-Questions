@@ -1,1 +1,23 @@
 ******
+Data Types
+Function Chaining
+Function delegation
+Prototype in Java script
+Event bubbling
+Closures
+Event loop
+Hoisting
+Host Binding and Host Listener
+call, bind, apply
+this and self difference
+break and continue
+== and === difference
+event.PreventDefault() and event.StopPropagation()
+promise
+0 == false is true or false? true 
+"" == null is true or false? true
+null == undefined is true or false? true
+var a = 0; b =23;
+if(a){alert(a);}
+if(b){alert(b);}
+it alert 23
