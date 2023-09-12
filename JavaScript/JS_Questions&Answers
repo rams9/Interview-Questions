@@ -58,3 +58,18 @@ example
    }
 var x = new obj();
 x.add(5).subtract(2).print();
+
+*************** end of function chaining ***********
+**************
+What is function delegation in JavaScript?
+
+Event delegation in JavaScript is a pattern that efficiently handles events. 
+Events can be added to a parent element instead of adding to every single element. 
+It refers to the process of using event propagation (bubbling) to handle events at
+a higher level in the DOM than the element on which the event originated.
+
+**************
+Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, 
+and both elements have registered a handle to that event. 
+It is a process that starts with the element that triggered the event and then bubbles up to the 
+containing elements in the hierarchy.
