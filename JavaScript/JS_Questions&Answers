@@ -1,0 +1,60 @@
+******* Data Types  **********
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+The object data type can contain:
+
+1. An object
+2. An array
+3. A date
+
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+***************** end of Data Types **********************
+
+**************** Function chaining *******************
+Function chaining is a pattern in JavaScript where multiple functions are called on the same object consecutively. 
+Using the same object reference, multiple functions can be invoked. 
+It increases the readability of the code and means less redundancy.
+example
+ var obj = function(){
+      this.i = 0;
+      this.add = function(i){
+         this.i += i;
+         return this;
+      };
+      this.subtract = function(i){
+         this.i -= i;
+         return this;
+      };
+      this.print = function(){
+         document.write(this.i);
+      }
+   }
+var x = new obj();
+x.add(5).subtract(2).print();
