@@ -1,1 +1,6 @@
+Repository Pattern
+-->Design pattern to separate the data access layer from the application
 
+-->Provides interface without exposing implementation
+
+-->Helps create abstraction
