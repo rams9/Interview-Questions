@@ -1,1 +1,7 @@
 ****
+Encapsulation Definition:
+Encapsulation is about bundling data and methods that operate on the data together and restricting direct access to the data using private variables. Access to the data is provided through controlled public methods (getters/setters).
+
+
+In abstraction, the focus is on exposing only what the user needs to know while hiding unnecessary details.
+
